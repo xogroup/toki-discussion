@@ -1,0 +1,14 @@
+{
+  "name": "toki-discussion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "toc": "ack -L 'DOCTOC SKIP' | xargs node_modules/.bin/doctoc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "doctoc": "^1.2.0"
+  }
+}
